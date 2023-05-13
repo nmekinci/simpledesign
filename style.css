@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* text-decoration: none; */
+}
+.header__top {
+  background: linear-gradient(0deg, rgb(215, 177, 217), rgb(153, 215, 225));
+  position: relative;
+  height: 120px;
+}
+
+.left img {
+  width: 55px;
+  height: 75px;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  cursor: pointer;
+}
+.right {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  /* float: right; */
+  color: rgb(146, 1, 1);
+}
+.right a {
+  text-decoration: none;
+  color: rgb(146, 1, 1);
+  font-family: "Open Sans", sans-serif;
+  /* transition: ease 1000ms; */
+}
+.right a:hover {
+  border-bottom: 2px solid rgb(146, 1, 1);
+}
+.header__bottom {
+  background: linear-gradient(90deg, rgb(251, 209, 105), rgb(254, 96, 199));
+  position: sticky;
+  height: 90px;
+  font-family: "DynaPuff", cursive;
+  text-align: center;
+  padding: 30px;
+  top: 0rem;
+}
+
+.header__bottom li {
+  display: inline-block;
+}
+.header__bottom a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: black;
+  /* transition: ease 1000ms; */
+}
+.header__bottom a:hover {
+  color: white;
+  /* cursor: none; */
+}
+/*! for heaader bttom we should do fixed dont forget */
+.body__top {
+  background-image: url(./img/banner.jpg);
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  /* position: relative; */
+  
+}
+.body__top--in{
+    /* position: absolute;
+    left: 60px;
+    top:120px; */
+    padding-left: 60px;
+    padding-top: 120px;
+    
+}
+.body__p {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+.body__top h1{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+}
+.body__top p{
+    color: red;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.body__top button{
+    background-color: rgb(217,175,217);
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
